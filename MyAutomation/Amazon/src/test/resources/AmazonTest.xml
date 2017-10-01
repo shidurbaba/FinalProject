@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="Amazon" parallel="false">
+    <test name="Amazon test">
+        <parameter name="browserName" value="chrome"/>
+        <parameter name="os" value="linux"/>
+        <parameter name="URL" value="http://www.amazon.com"/>
+        <classes>
+            <class name ="testcases.TestLogin"/>
+            <class name ="testcases.TestFindItems"/>
+        </classes>
+
+    </test>
+
+
+</suite>

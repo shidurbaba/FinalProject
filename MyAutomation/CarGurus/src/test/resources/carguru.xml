@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="CarGurus" parallel="false">
+    <test name="CarGurus test">
+        <parameter name="browserName" value="chrome"/>
+        <parameter name="os" value="linux"/>
+        <parameter name="URL" value="http://www.cargurus.com"/>
+        <classes>
+            <class name ="testcases.TestCGUsedCar"/>
+            <!--<class name ="testcases.TestFindItems"/>-->
+        </classes>
+
+    </test>
+
+
+</suite>
